@@ -2,9 +2,13 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
 }
+.fa-star{
+    position: relative;
+    top: -30px;
+    left: 95px;
+}
 .top{
     display: inline-block;
-
 }
 .top-right{
     float: right;
@@ -15,7 +19,11 @@ body{
     margin-right: 30px;
 }
 .top-right img{
-    width: 50px;
+    width: 40px;
+    height: 40px;
+}
+.top-right img, .top-right p:hover{
+    cursor: pointer;
 }
 .top > span{
     position: absolute;
@@ -54,6 +62,7 @@ nav > ul a:hover{
 nav > ul li:hover{
     transform: scale(1.2);
 }
+
 main{
     margin-top: -4px;
 }
