@@ -14,6 +14,9 @@ body{
 .top-right > p{
     margin-right: 30px;
 }
+.top-right img{
+    width: 50px;
+}
 .top > span{
     position: absolute;
     top: 20px;
@@ -24,6 +27,10 @@ body{
 .top > img{
     width: 20%;
 }
+.en{
+    text-decoration: underline;
+}
+
 nav{
     height: 50px;
     background-color: cornflowerblue;
@@ -47,19 +54,20 @@ nav > ul a:hover{
 nav > ul li:hover{
     transform: scale(1.2);
 }
+main{
+    margin-top: -4px;
+}
 .slide-pics img{
     width: 100%;
 }
 .info{
     display: flex;
     justify-content: space-around;
-   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffbb68+3,ffead3+100 */
+  
 background: rgb(255,187,104); /* Old browsers */
 background: -moz-linear-gradient(top, rgba(255,187,104,1) 3%, rgba(255,234,211,1) 100%); /* FF3.6-15 */
 background: -webkit-linear-gradient(top, rgba(255,187,104,1) 3%,rgba(255,234,211,1) 100%); /* Chrome10-25,Safari5.1-6 */
-background: linear-gradient(to bottom, rgba(255,187,104,1) 3%,rgba(255,234,211,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffbb68', endColorstr='#ffead3',GradientType=0 ); /* IE6-9 */
-
+background: linear-gradient(to bottom, rgba(246, 216, 178) 3%,rgba(255,234,211,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 }
 .info > div{
     width: 26%;
@@ -68,6 +76,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffbb68', end
 .info > div h2{
     font-family: 'AGKornelia';
     text-transform: uppercase;
+    color: #f05200;
 }
 .offers{
     background-image:url(../images/news_back2.jpg);
@@ -90,4 +99,40 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffbb68', end
 .slider-category{
     background-color: azure;
     height: 300px;
+}
+
+footer{
+    background-color: cornflowerblue;
+    height: 200px;
+    color: white;
+    text-align: center;
+    padding-bottom: 30px;
+    margin-top: -20px;
+}
+.footer-container h2{
+    font-family: 'AGKornelia',serif;
+}
+footer a{
+    text-decoration: none;
+    color: white;
+    
+}
+footer a:hover{
+    color: #fb7809;
+    text-decoration: underline;
+}
+.fa-facebook-square{
+    color: blue;
+    font-size: 24px;
+}
+.fa-twitter{
+    color: lightskyblue;
+    font-size: 24px;
+}
+.socials i{
+    font-size: 24px;
+}
+hr{
+    color: white;
+    width: 90%;
 }
