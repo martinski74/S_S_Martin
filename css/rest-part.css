@@ -4,6 +4,7 @@ main{
     color: #4c351e;
     background-color: cadetblue;
 }
+/* about part  */
 
 .containt{
     background: rgb(255,187,104); /* Old browsers */
@@ -30,4 +31,33 @@ main{
     font-size: 160%;
     
     color: rgb(226, 101, 29);
+
+}
+
+/* Price part */
+
+table,tr,td{
+    border: 1px solid orange;
+    border-collapse: collapse;
+}
+table{
+    width: 100%;
+    text-align: center;
+}
+.table-wrap {
+    border: 2px solid #fff;
+    background: #fdf2da;
+}
+td:first-of-type{
+   font-weight: bolder;
+}
+td,th{
+    padding: 8px;
+}
+td,th{
+    border-bottom: none;
+}
+tr:first-of-type{
+    background-color: #f05200;
+    color: white;
 }
