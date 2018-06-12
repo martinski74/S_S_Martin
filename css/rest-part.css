@@ -61,3 +61,18 @@ tr:first-of-type{
     background-color: #f05200;
     color: white;
 }
+.map{
+    width: 50%;
+    padding-top: 20px;
+}
+.room{
+    width: 100%;
+    padding-bottom: 30px;
+}
+.main-content{
+    margin-top: 15px;
+}
+
+/* Reastaurant part  */
+
+
