@@ -68,7 +68,7 @@ nav > ul a:hover{
     position: absolute;
     background-color: cornflowerblue;
     right: 376px;
-    width: 12%;
+    width: 14%;
     display: none;
 }
 .dropdown > li{
@@ -99,6 +99,9 @@ main{
 }
 .category-content > div>img:last-of-type{
     height: 100%;;
+}
+.category-content  a{
+    text-transform: uppercase;
 }
 
 .w3-content .w3-section{
