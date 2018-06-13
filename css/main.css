@@ -93,13 +93,16 @@ main{
 }
 .category-content > div>img{
     width: 100%;
-    box-shadow: 8px 9px 9px bisque;
+    box-shadow: 8px 9px 12px chocolate;
 }
 .category-content > div>img:last-of-type{
     height: 100%;;
 }
 .category-content  a{
     text-transform: uppercase;
+}
+.category-content  a:hover{
+    color: #fb7809;
 }
 
 .w3-content .w3-section{

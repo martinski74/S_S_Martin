@@ -101,5 +101,11 @@ tr:first-of-type{
     margin-top: 15px;
     margin-bottom: -17px;
 }
+.nav-menu{
+    padding-top: 10px;
+}
+.header-rooms{
+    margin-bottom: 0
+}
 
 
