@@ -67,8 +67,8 @@ nav > ul a:hover{
     z-index: 1;
     position: absolute;
     background-color: cornflowerblue;
-    right: 376px;
-    width: 14%;
+    /* right: 376px;
+    width: 14%; */
     display: none;
 }
 .dropdown > li{
@@ -77,9 +77,7 @@ nav > ul a:hover{
 .dropdown-list:hover .dropdown{
     display: block;
 }
-/* nav > ul>li:hover{
-    transform: scale(1.2);
-} */
+
 
 main{
     margin-top: -18px;
