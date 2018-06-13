@@ -75,5 +75,23 @@ tr:first-of-type{
 .last{
     height: 50%;
 }
+/* Kiten part */
+.kiten-pic{
+    width: 100%;
+    height: 60%;
+}
+.pan{
+    height: 100%;
+}
+/* hot deals */
+
+.hot{
+    font-size: 18px;
+    color: crimson;
+}
+.hot:hover{
+    padding-left: 30px;
+    transform: scale(1.1);
+}
 
 
