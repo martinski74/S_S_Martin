@@ -13,7 +13,7 @@ body{
 .top-right{
     float: right;
     display: flex;
-    margin-top: 20px;
+    margin-top: 30px;
 }
 .top-right > p{
     margin-right: 30px;
@@ -61,13 +61,30 @@ nav > ul a:hover{
     color: darkorange;
     
 }
-nav > ul li:hover{
+nav > ul>li:hover{
     transform: scale(1.2);
 }
 
 main{
     margin-top: -18px;
 }
+.category-content{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 25px;
+    background-color: lemonchiffon;
+}
+.category-content > div{
+    padding: 31px;
+}
+.category-content > div>img{
+    width: 100%;
+    box-shadow: 8px 9px 9px bisque;
+}
+.category-content > div>img:last-of-type{
+    height: 100%;;
+}
+
 .w3-content .w3-section{
     width: 100%;
 }
