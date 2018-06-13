@@ -61,9 +61,25 @@ nav > ul a:hover{
     color: darkorange;
     
 }
-nav > ul>li:hover{
-    transform: scale(1.2);
+.dropdown{
+    list-style: none;
+    color: white;
+    z-index: 1;
+    position: absolute;
+    background-color: cornflowerblue;
+    right: 376px;
+    width: 12%;
+    display: none;
 }
+.dropdown > li{
+    padding: 5px 5px 5px 0px;
+}
+.dropdown-list:hover .dropdown{
+    display: block;
+}
+/* nav > ul>li:hover{
+    transform: scale(1.2);
+} */
 
 main{
     margin-top: -18px;
