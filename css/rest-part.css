@@ -80,6 +80,10 @@ tr:first-of-type{
     width: 100%;
     height: 60%;
 }
+.kiten-pic:hover,.room:hover{
+    transform: scale(1.1);
+    transition: transform .5s;
+}
 .pan{
     height: 100%;
 }

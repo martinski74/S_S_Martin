@@ -95,6 +95,10 @@ main{
     width: 100%;
     box-shadow: 8px 9px 12px chocolate;
 }
+.category-content > div>img:hover{
+    transform: scale(1.1);
+    transition: transform .7s;
+}
 .category-content > div>img:last-of-type{
     height: 100%;;
 }
