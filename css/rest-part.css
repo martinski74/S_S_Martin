@@ -2,7 +2,7 @@ main{
     font-family: 'Open Sans', Tahoma, Arial, Verdana, sans-serif;
     padding: 40px;
     color: #4c351e;
-    background-color: cadetblue;
+    background-color: coral;
 }
 /* about part  */
 
@@ -70,7 +70,7 @@ tr:first-of-type{
     padding-bottom: 30px;
 }
 .main-content{
-    margin-top: 15px;
+    margin-top: 0px;
 }
 .last{
     height: 50%;
