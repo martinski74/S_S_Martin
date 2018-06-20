@@ -62,7 +62,7 @@ tr:first-of-type{
     color: white;
 }
 .map{
-    width: 60%;
+    width: 65%;
     padding-top: 20px;
 }
 .room{
@@ -130,6 +130,9 @@ tr:first-of-type{
 }
 .right-content{
     width: 40%;
+}
+form{
+	width:90%;
 }
 .btn{
     width: 20%;
