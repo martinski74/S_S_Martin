@@ -3,16 +3,16 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=contact page, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
-        crossorigin="anonymous">
     <link rel="icon" type="image/png" href="../images/favicon.ico">
     <link rel="stylesheet" href="../css/main.css">
     <link rel="stylesheet" href="../css/rest-part.css">
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" crossorigin="anonymous">
-    <title>Contacts</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+    <title>Document</title>
 </head>
 
 <body>
@@ -33,7 +33,7 @@
             <p class="ukr">UKR</p>
         </div>
         <nav>
-            <ul>
+            <ul class="nav-menu">
                 <li>
                     <a href="../index.html">Home</a>
                 </li>
@@ -59,7 +59,7 @@
                             <a href="./restaurant.html">Resataurant</a>
                         </li>
                         <li>
-                            <a href="./kiten.html">Kiten</a>
+                            <a href="./about.html">Kiten</a>
                         </li>
                     </ul>
                 </li>
@@ -78,45 +78,45 @@
         <img class="mySlides w3-animate-fading" src="../images/kiten/sea.jpg" alt="slide" style="width: 100%; height: 380px;">
     </div>
     <main>
-        <div class="containt contacts">
-            <div class="left-content">
-                <h2>contacts</h2>
-                <div><strong>Hotel AQUA - Kiten</strong></div>
-                <div>
-                    <strong>Address:</strong> "Briz" Str.2, 8888, Kiten Bulgaria</div>
-                <div>
-                    <strong>GPS coordinates:</strong> N 42.235887 E 27.777469</div>
-                <div>
-                    <strong>Phone/Fax</strong> (+359) 123 456</div>
-                <div>
-                    <strong>E-mail </strong>: info@aqua.com</div>
-                <img class="map" src="../images/map.png" alt="map">
-            </div>
-            <div class="right-content">
-                <h2>Inquiry form</h2>
-                <form class="contact-form">
-                    <div class="form-group">
-                        <label for="formGroupName">Name*</label>
-                        <input type="text" class="form-control" id="formGroupName" placeholder="Yuor name">
+        <div class="containt booking">
+            <h3>Calculate your stay in our hotel</h3>
+            <div class="flex">
+                <form class="booking-form">
+                    <div class="form-group row">
+                        <label for="arival" class="col-sm-1 col-form-label">ARIVAL</label>
+                        <div class="col-sm-4">
+                            <input type="date" class="form-control" id="arival">
+                        </div>
                     </div>
-                    <div class="form-group">
-                        <label for="formGroupEmail">E-mail*</label>
-                        <input type="text" class="form-control" id="formGroupEmail" placeholder="E-mail">
+                    <div class="form-group row">
+                        <label for="departure" class="col-sm-1 col-form-label">DEPARTURE</label>
+                        <div class="col-sm-4">
+                            <input type="date" class="form-control" id="departure">
+                        </div>
                     </div>
-                    <div class="form-group">
-                        <label for="formGroupPhone">Phone*</label>
-                        <input type="text" class="form-control" id="formGroupPhone" placeholder="Phone">
+                    <div class="form-group row">
+                        <label for="nights" class="col-sm-1 col-form-label">NIGHTS</label>
+                        <div class="col-sm-4">
+                            <input type="number" min="0" max="9" class="form-control" id="nights">
+                        </div>
                     </div>
-                    <div class="form-group">
-                        <label for="formGroupSubject">Subject*</label>
-                        <input type="text" class="form-control" id="formGroupSubject" placeholder="Subject">
+                    <div class="form-group row">
+                        <label for="adults" class="col-sm-1 col-form-label">ADULTS</label>
+                        <div class="col-sm-4">
+                            <input type="number" min="0" max="9" class="form-control" id="adults">
+                        </div>
                     </div>
-                    <div class="form-group">
-                        <textarea name="" id="" cols="45" rows="4" placeholder="Message*"></textarea>
+                    <div class="form-group row">
+                        <div class="col-sm-10 offset-sm-1">
+                            <button type="submit" class="btn btn-primary">BOOK NOW</button>
+                        </div>
                     </div>
-                    <button type="button" class="btn btn-primary">Send</button>
                 </form>
+                <div class="result">
+                    <h1>result</h1>
+                </div>
             </div>
+           
         </div>
     </main>
     <footer>

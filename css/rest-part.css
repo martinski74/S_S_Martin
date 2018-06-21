@@ -63,7 +63,7 @@ tr:first-of-type{
 }
 .map{
     width: 65%;
-    padding-top: 20px;
+    margin-top: 20px;
 }
 .room{
     width: 100%;
@@ -131,7 +131,7 @@ tr:first-of-type{
 .right-content{
     width: 40%;
 }
-form{
+.contact-form{
 	width:90%;
 }
 .btn{
@@ -141,6 +141,39 @@ textarea{
     border: 1px solid lightgray;
     border-radius: 5px;
     width: 100%;
+}
+textarea:focus{
+    border-color: #80bdff;
+    outline: 0;
+    box-shadow: 0 0 0 .2rem rgba(0,123,255,.25);
+}
+/* booking part */
+
+input[type="number"]{
+    max-width: 30%;
+}
+.btn{
+    margin-top: 20px;
+}
+.booking h3{
+    font-family: 'AGKornelia';
+    text-transform: uppercase;
+    color: #f05200;
+    margin-bottom: 30px;
+}
+.flex{
+    display: flex;
+    justify-content: flex-start;
+}
+.booking-form{
+    width: 60%;
+}
+.booking-form label{
+    margin-right: 30px;
+}
+.result{
+    width: 40%;
+    background-color: aliceblue;
 }
 
 
