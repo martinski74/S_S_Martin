@@ -13,6 +13,7 @@ $('.book-btn').click(function(evt) {
     let result = 0;
     let arivalDate = new Date(firstDate);
     let depatureDate = new Date(secondDate);
+    
     if (arivalDate > new Date('2018/5/20') && arivalDate < new Date('2018/7/15')) {
         result = 40;
     } else if (arivalDate > new Date('2018/7/16') && arivalDate < new Date('2018/8/31')) {
@@ -22,7 +23,7 @@ $('.book-btn').click(function(evt) {
     }
     let totalPrice = result * Number(adults) * Number(numberOfNights);
 
-    let resultDiv = $('.result').show();
+    $('.result').show();
     $('.yourNmae').append(name);
     $('.nights').append(numberOfNights);
     $('.total').append(totalPrice + ' lv.');

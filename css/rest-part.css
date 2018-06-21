@@ -175,5 +175,18 @@ a.btn{
     width: 40%;
     display: none;
 }
+.notification{
+    display: none;
+    width: 39%;
+    background-color: lightgreen;
+    border-radius: 15px;
+}
+.notification > span{
+    float: right;
+    padding: 10px 10px;
+}
+.notification > span:hover{
+    cursor: pointer;
+}
 
 

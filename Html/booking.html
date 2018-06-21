@@ -13,7 +13,6 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
         crossorigin="anonymous">
     <script src="../js/jquery-3.3.1.min.js"></script>
-    <script src="../js/calculate.js"></script>
     <title>Document</title>
 </head>
 
@@ -109,20 +108,19 @@
                             <input type="number" min="0" max="9" class="form-control" id="adults" placeholder="0">
                         </div>
                     </div>
-                         <div class="col-sm-10 offset-sm-1">
-                            <a class="btn btn-primary book-btn">Calculate</a>
-                            <input class="btn btn-primary" type="reset" value="Reset">
-                        </div>
-                        
+                    <div class="col-sm-10 offset-sm-1">
+                        <a class="btn btn-primary book-btn">Calculate</a>
+                        <input class="btn btn-primary" type="reset" value="Reset">
+                    </div>
+
                 </form>
                 <div class="result">
                     <h2>Your reservation</h2>
                     <p class="yourNmae">Your name: </p>
                     <p class="nights">Number of nights: </p>
                     <p class="total">Total price: </p>
-                    <div class="butons">
-                            <input type="reset" value="Reset">
-                            <input type="submit" value="Submit">
+                    <div class="col-sm-14 offset-sm-0">
+                        <input class="btn btn-primary" type="submit" value="CONFIRM" id="confirm">
                     </div>
                 </div>
             </div>
@@ -152,7 +150,7 @@
     </footer>
     <script src="../js/carousel.js"></script>
     <script src="../js/calculate.js"></script>
-
+    <script src="../js/confirm.js"></script>
 </body>
 
 </html>
