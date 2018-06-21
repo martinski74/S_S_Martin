@@ -12,6 +12,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" crossorigin="anonymous">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
         crossorigin="anonymous">
+    <script src="../js/jquery-3.3.1.min.js"></script>
+    <script src="../js/calculate.js"></script>
     <title>Document</title>
 </head>
 
@@ -83,6 +85,12 @@
             <div class="flex">
                 <form class="booking-form">
                     <div class="form-group row">
+                        <label for="names" class="col-sm-1 col-form-label"> Name</label>
+                        <div class="col-sm-4">
+                            <input type="text" class="form-control" id="names" placeholder="Your Name...">
+                        </div>
+                    </div>
+                    <div class="form-group row">
                         <label for="arival" class="col-sm-1 col-form-label">ARIVAL</label>
                         <div class="col-sm-4">
                             <input type="date" class="form-control" id="arival">
@@ -94,29 +102,31 @@
                             <input type="date" class="form-control" id="departure">
                         </div>
                     </div>
-                    <div class="form-group row">
-                        <label for="nights" class="col-sm-1 col-form-label">NIGHTS</label>
-                        <div class="col-sm-4">
-                            <input type="number" min="0" max="9" class="form-control" id="nights">
-                        </div>
-                    </div>
+
                     <div class="form-group row">
                         <label for="adults" class="col-sm-1 col-form-label">ADULTS</label>
                         <div class="col-sm-4">
-                            <input type="number" min="0" max="9" class="form-control" id="adults">
+                            <input type="number" min="0" max="9" class="form-control" id="adults" placeholder="0">
                         </div>
                     </div>
-                    <div class="form-group row">
-                        <div class="col-sm-10 offset-sm-1">
-                            <button type="submit" class="btn btn-primary">BOOK NOW</button>
+                         <div class="col-sm-10 offset-sm-1">
+                            <a class="btn btn-primary book-btn">Calculate</a>
+                            <input class="btn btn-primary" type="reset" value="Reset">
                         </div>
-                    </div>
+                        
                 </form>
                 <div class="result">
-                    <h1>result</h1>
+                    <h2>Your reservation</h2>
+                    <p class="yourNmae">Your name: </p>
+                    <p class="nights">Number of nights: </p>
+                    <p class="total">Total price: </p>
+                    <div class="butons">
+                            <input type="reset" value="Reset">
+                            <input type="submit" value="Submit">
+                    </div>
                 </div>
             </div>
-           
+
         </div>
     </main>
     <footer>
@@ -141,6 +151,8 @@
         </div>
     </footer>
     <script src="../js/carousel.js"></script>
+    <script src="../js/calculate.js"></script>
+
 </body>
 
 </html>

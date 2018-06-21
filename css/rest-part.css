@@ -27,7 +27,7 @@ main{
 .containt .right-pic{
     float: right;
 }
-.containt p::first-letter {
+.about p::first-letter {
     font-size: 160%;
     
     color: rgb(226, 101, 29);
@@ -152,8 +152,8 @@ textarea:focus{
 input[type="number"]{
     max-width: 30%;
 }
-.btn{
-    margin-top: 20px;
+a.btn{
+    color: white !important;
 }
 .booking h3{
     font-family: 'AGKornelia';
@@ -173,7 +173,7 @@ input[type="number"]{
 }
 .result{
     width: 40%;
-    background-color: aliceblue;
+    display: none;
 }
 
 
