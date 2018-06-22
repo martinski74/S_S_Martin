@@ -1,8 +1,9 @@
 
 $('.book-btn').click(function (ev) {
 
+    ev.preventDefault();
 
-
+    
     let name = $('#names').val();
     let firstDate = $('#arival').val();
     let secondDate = $('#departure').val();
@@ -32,9 +33,12 @@ $('.book-btn').click(function (ev) {
     } else {
         $('.total').append('0' + ' lv.');
     }
-    ev.preventDefault();
-
+    
+    $(this).attr('disabled', 'disabled');
+    
 });
+
+
 
 
 
