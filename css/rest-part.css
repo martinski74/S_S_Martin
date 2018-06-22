@@ -70,7 +70,7 @@ tr:first-of-type{
     padding-bottom: 30px;
 }
 .main-content{
-    margin-top: 0px;
+    margin-top: 15px;
 }
 .last{
     height: 50%;
@@ -189,6 +189,7 @@ a.btn{
 .notification > span{
     float: right;
     padding: 10px 10px;
+    color: black;
 }
 .notification > span:hover{
     cursor: pointer;
