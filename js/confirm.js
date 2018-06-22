@@ -8,7 +8,7 @@ $('#confirm').click(function (ev) {
     message.css('margin-top', '75px');
     message.css('text-align', 'center');
     message.appendTo(result);
-    $('<p>').text('Thank You for the reservation!').appendTo(message);
+    $('<p>').text('Thank You!').appendTo(message);
     var closing = $('<span>X</span>');
     closing.prependTo(result);
     result.fadeIn(2000);

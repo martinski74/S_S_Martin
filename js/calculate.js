@@ -34,8 +34,6 @@ $('.book-btn').click(function (ev) {
         $('.total').append('0' + ' lv.');
     }
     
-    $(this).attr('disabled', 'disabled');
-    
 });
 
 

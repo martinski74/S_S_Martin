@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
         crossorigin="anonymous">
     <script src="../js/jquery-3.3.1.min.js"></script>
-    <title>Document</title>
+    <title>Book now</title>
 </head>
 
 <body>
@@ -105,12 +105,12 @@
                     <div class="form-group row">
                         <label for="adults" class="col-sm-1 col-form-label">ADULTS</label>
                         <div class="col-sm-4">
-                            <input type="number" min="1" max="9" class="form-control" id="adults" placeholder="1">
+                            <input type="number" min="0" max="9" class="form-control" id="adults" placeholder="0">
                         </div>
                     </div>
                     <div class="col-sm-10 offset-sm-1">
-                        <button class="btn btn-primary book-btn">Calculate</button>
-                        <input class="btn btn-primary" type="reset" value="Reset">
+                        <button class="btn btn-primary book-btn" onclick="this.disabled = true">Calculate</button>
+                        <input class="btn btn-primary res" type="reset" value="Reset">
                     </div>
 
                 </form>
@@ -151,6 +151,7 @@
     <script src="../js/carousel.js"></script>
     <script src="../js/calculate.js"></script>
     <script src="../js/confirm.js"></script>
+    <script src="../js/reset.js"></script>
 </body>
 
 </html>
