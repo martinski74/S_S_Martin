@@ -174,12 +174,17 @@ a.btn{
 .result{
     width: 40%;
     display: none;
+    
+}
+.result p{
+    font-size: 20px;
 }
 .notification{
     display: none;
     width: 39%;
     background-color: lightgreen;
     border-radius: 15px;
+    color: forestgreen;
 }
 .notification > span{
     float: right;

@@ -1,4 +1,5 @@
-$('#confirm').click(function () {
+$('#confirm').click(function (ev) {
+    ev.preventDefault();
     $('.result').css("display", "none");
 
     let result = $('<div>').addClass('notification');
@@ -7,11 +8,13 @@ $('#confirm').click(function () {
     message.css('margin-top', '75px');
     message.css('text-align', 'center');
     message.appendTo(result);
-    let closing = $('<span>X</span>');
+    $('<p>').text('Thank You for the reservation!').appendTo(message);
+    var closing = $('<span>X</span>');
     closing.prependTo(result);
     result.fadeIn(2000);
 
-    closing.click(function(){
-        result.fadeOut(1500);
+    closing.click(function (ev) {
+        ev.preventDefault();
+        result.fadeOut(1000);
     });
 });

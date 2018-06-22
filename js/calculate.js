@@ -1,7 +1,7 @@
 
-$('.book-btn').click(function(evt) {
+$('.book-btn').click(function (ev) {
 
-    evt.preventDefault();
+
 
     let name = $('#names').val();
     let firstDate = $('#arival').val();
@@ -13,7 +13,7 @@ $('.book-btn').click(function(evt) {
     let result = 0;
     let arivalDate = new Date(firstDate);
     let depatureDate = new Date(secondDate);
-    
+
     if (arivalDate > new Date('2018/5/20') && arivalDate < new Date('2018/7/15')) {
         result = 40;
     } else if (arivalDate > new Date('2018/7/16') && arivalDate < new Date('2018/8/31')) {
@@ -26,8 +26,14 @@ $('.book-btn').click(function(evt) {
     $('.result').show();
     $('.yourNmae').append(name);
     $('.nights').append(numberOfNights);
-    $('.total').append(totalPrice + ' lv.');
-    
+
+    if (!isNaN(totalPrice)) {
+        $('.total').append(totalPrice + ' lv.');
+    } else {
+        $('.total').append('0' + ' lv.');
+    }
+    ev.preventDefault();
+
 });
 
 
