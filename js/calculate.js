@@ -8,7 +8,7 @@ $('.book-btn').click(function (ev) {
     let firstDate = $('#arival').val();
     let secondDate = $('#departure').val();
     let numberOfNights = new Date(secondDate).getDate() - new Date(firstDate).getDate();
-    $('#nights').val(numberOfNights); //setting number of nights
+    $('#nights').val(numberOfNights);       //setting number of nights
     let adults = $('#adults').val();
 
     let result = 0;
@@ -28,7 +28,7 @@ $('.book-btn').click(function (ev) {
     $('.yourNmae').append(name);
     $('.nights').append(numberOfNights);
 
-    if (!isNaN(totalPrice)) {
+    if (!isNaN(totalPrice)) {       // checking if price is NaN
         $('.total').append(totalPrice + ' lv.');
     } else {
         $('.total').append('0' + ' lv.');
