@@ -12,7 +12,7 @@ main{
     background: -moz-linear-gradient(top, rgba(255,187,104,1) 3%, rgba(255,234,211,1) 100%); /* FF3.6-15 */
     background: -webkit-linear-gradient(top, rgba(255,187,104,1) 3%,rgba(255,234,211,1) 100%); /* Chrome10-25,Safari5.1-6 */
     background: linear-gradient(to bottom, rgba(252, 248, 243) 1%,rgb(250, 212, 167, 0.897) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */ 
-    padding: 35px 35px 65px 35px;
+    padding: 35px 35px 100px 35px;
 }
 
 .containt > h2{

@@ -11,7 +11,7 @@ function carousel() {
     myIndex = 1
   }
   element[myIndex - 1].style.display = "block";
-  setTimeout(carousel, 7000);
+  setTimeout(carousel, 5000);
 
 }
 carousel();
