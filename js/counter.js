@@ -9,7 +9,7 @@ function counter() {
     }
 
     document.getElementById('visits')
-        .innerHTML = "VISITORS: " + localStorage.pagecount;
+        .innerHTML = "Visitors: " + localStorage.pagecount;
 
 }
 counter();

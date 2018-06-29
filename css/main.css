@@ -42,9 +42,8 @@ header{
     margin-bottom: -15px;
 }
 #visits{
-    font-size: 18px;
     color: orangered;
-    border: 1px solid;
+    border: 1px solid gainsboro;;
     padding: 5px;
 }
 
@@ -84,9 +83,13 @@ nav > ul a:hover{
 .dropdown-list:hover .dropdown{
     display: block;
 }
-.book{
-    color: yellow;
-}
+.book {
+    color: blue;
+    animation: blink 2s steps(2, start) infinite;
+    }
+@keyframes blink {
+    to { color: yellow; }
+    }
 
 main{
     margin-top: -18px;
