@@ -41,6 +41,13 @@ body{
 header{
     margin-bottom: -15px;
 }
+#visits{
+    font-size: 18px;
+    color: orangered;
+    border: 1px solid;
+    padding: 5px;
+}
+
 nav{
     height: 55px;
     background-color: cornflowerblue;
