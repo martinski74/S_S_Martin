@@ -93,10 +93,7 @@ tr:first-of-type{
     font-size: 24px;
     color: crimson;
 }
-.hot:hover{
-    padding-left: 30px;
-    transform: scale(1.1);
-}
+
 .heading-pic{
     width: 100%;
     height: 290px;
