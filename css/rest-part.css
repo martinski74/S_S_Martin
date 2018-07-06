@@ -191,5 +191,11 @@ a.btn{
 .notification > span:hover{
     cursor: pointer;
 }
+button.slick-arrow{
+    background-color: #4c351e;
+}
+.closing:hover{
+    cursor: pointer;
+}
 
 
