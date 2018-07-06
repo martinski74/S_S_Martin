@@ -1,4 +1,4 @@
-$('.room').on('click', function() {
+$('.room').on('click', function() {  // used Slick library
     $('.slider').slick();
     $('.room')
     .css('width','60%')
