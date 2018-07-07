@@ -1,5 +1,5 @@
 function validate() {
-
+   
     let name = $('#formGroupName').val();
     let email = $('#formGroupEmail').val();
     let phone = $('#formGroupPhone').val();
@@ -10,7 +10,7 @@ function validate() {
     }
     if (name == '') {
         $('.name-message')
-            .text('This field is required!')
+            .text('This field is required! Please enter your name!')
             .css('color', 'red');
     }
     if (email != '') {
@@ -18,7 +18,7 @@ function validate() {
     }
     if (email == '') {
         $('.email-message')
-            .text('This field is required!')
+            .text('This field is required! Please enter you email!')
             .css('color', 'red');
     }
     if (phone != '') {
@@ -26,7 +26,7 @@ function validate() {
     }
     if (phone == '') {
         $('.phone-message')
-            .text('This field is required!')
+            .text('This field is required! Please enter your phone!')
             .css('color', 'red');
     }
     if (text != '') {
@@ -34,7 +34,7 @@ function validate() {
     }
     if (text == '') {
         $('.text-message')
-            .text('This field is required!')
+            .text('This field is required! Please enter your message!')
             .css('color', 'red');
     }
 

@@ -5,7 +5,7 @@ $('.room').on('click', function() {  // used Slick library
     .css('margin-left','25%')
 
 
-    let close = $('<span>X</span>').addClass('closing')
+    let close = $('<span> &#10060;</span>').addClass('closing')
     .css('position','relative')
     .css('left','90%')
     .css('font-size', '20px')
