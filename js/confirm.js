@@ -11,7 +11,7 @@ $('#confirm').click(function (ev) {
     // $('<p>').text('Thank you!').appendTo(message);
     var closing = $('<span>X</span>');
     closing.prependTo(result);
-    result.fadeIn(2000);
+    result.fadeIn(1500);
 
     closing.click(function (ev) {
         ev.preventDefault();

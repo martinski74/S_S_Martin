@@ -2,7 +2,7 @@ $('.room').on('click', function() {  // used Slick library
     $('.slider').slick();
     $('.room')
     .css('width','60%')
-    .css('margin-left','25%')
+    .css('margin-left','21%')
 
 
     let close = $('<span> &#10060;</span>').addClass('closing')
