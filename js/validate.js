@@ -1,5 +1,5 @@
-function validate() {
-   
+function validate(e) {
+   e.preventDefault();
     let name = $('#formGroupName').val();
     let email = $('#formGroupEmail').val();
     let phone = $('#formGroupPhone').val();
